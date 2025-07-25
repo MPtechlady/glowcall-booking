@@ -1,12 +1,36 @@
-# React + Vite
+# 🌸 GlowCall Booking – Mini Fullstack Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mini full-stack project built for **THILEO Royal Co.** to enable users to book customized Glow Call cosmetic consultations online.
 
-Currently, two official plugins are available:
+> 🔐 Note: Sensitive files like `.env` and UPI QR code are excluded for security reasons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React + Bootstrap + Vite
+- **Backend**: Node.js + Express.js
+- **Database**: MongoDB Atlas via Mongoose
+- **Other**: Dotenv, CORS, Nodemon
+
+---
+
+## 🎯 Features
+
+- 📩 **Booking Form** – Users can submit consultation requests
+- ✅ **Validation** – Required fields, consent checkbox, etc.
+- 💬 **WhatsApp Confirmation** – Notifies users of confirmation manually
+- 🔐 **Backend API** – Secured route to store form data in MongoDB
+- 🖼️ **UPI Payment Section** – (QR code hidden in public repo for safety)
+
+---
+
+## 🚀 How to Run Locally
+
+> You'll need **Node.js** installed. Use two terminals: one for backend, one for frontend.
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/MPtechlady/glowcall-booking.git
+cd glowcall-booking
