@@ -29,8 +29,9 @@ This is a mini full-stack project built for **THILEO Royal Co.** to enable users
 
 > You'll need **Node.js** installed. Use two terminals: one for backend, one for frontend.
 
-### 1. Clone the Repo
+1. Clone the Repo
+2. Add `.env` with MongoDB URI
+3. Run backend: `npm run dev`
+4. Run frontend: `npm run frontend`
+5. Submit booking → See data saved!
 
-```bash
-git clone https://github.com/MPtechlady/glowcall-booking.git
-cd glowcall-booking
